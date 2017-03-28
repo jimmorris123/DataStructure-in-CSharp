@@ -27,7 +27,7 @@ namespace weiss.nonstandard
     * Note that all "matching" is based on the compareTo method.
     * @author Mark Allen Weiss
     */
-    public class AATree<AnyType> where AnyType : System.Collections.Generic.IComparable<AnyType>
+    public class AATree<AnyType> where AnyType : IComparable<AnyType>
     {
         // Construct the tree.
         public AATree( AnyType notFound )
@@ -39,6 +39,7 @@ namespace weiss.nonstandard
             itemNotFound = notFound;
         }
 
+        //public AATree( ) : this( AnyType.default )
         public AATree( ) : this( AnyType.default )
         {
         }

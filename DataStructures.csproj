@@ -132,7 +132,6 @@
     <Compile Include="StaticParamsDemo.cs" />
     <Compile Include="StorageCellDemo.cs" />
     <Compile Include="StringArrayList.cs" />
-    <Compile Include="System\Collections\Generic\IComparable.cs" />
     <Compile Include="TestAATree.cs" />
     <Compile Include="TestArrayStack.cs" />
     <Compile Include="TestBinaryHeap.cs" />
